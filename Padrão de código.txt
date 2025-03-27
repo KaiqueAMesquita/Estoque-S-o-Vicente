@@ -1,0 +1,65 @@
+Padrão de código
+
+Camel Case
+
+Use camelCase para variáveis, funções e métodos.
+Exemplo:
+
+int totalPrice;
+String getUserData();
+
+Pascal Case
+
+Use PascalCase para nomes de classes e tipos.
+Exemplo:
+
+class ProductController {}
+class UserService {}
+
+SCREAMING_SNAKE_CASE
+
+Use SCREAMING_SNAKE_CASE para constantes globais.
+Exemplo:
+
+final int MAX_ITEMS = 100;
+
+Use nomes descritivos
+
+Evite abreviações desnecessárias e torne os nomes claros e intuitivos.
+Ex.: ver quantos produtos tem de uma categoria:
+
+❌ qntPdtCat()
+✅ countProductsInCategory()
+
+
+O código deve ser escrito exclusivamente em inglês, incluindo variáveis, funções, comentários e nomes de arquivos.
+Função e método:
+
+    Prefira verbos para funções que realizam ações.
+    Exemplo:
+
+double calculateTotalPrice();
+String fetchUserData();
+
+Métodos que retornam booleanos devem começar com is, has, should, can, etc.
+Exemplo:
+
+    boolean isUserAuthenticated();
+    boolean hasDiscountAvailable();
+
+    Evite nomes muito longos, mas mantenha a clareza.
+    ❌ howManyProductInCategory()
+    ✅ countProductsInCategory()
+
+Enums
+
+Os valores de enum devem ser escritos em maiúsculas.
+Exemplo:
+
+enum Action {
+    COOK,
+    BUY,
+    SELL
+}
+
+comentarios tudo! Isso estará no projeto do git
