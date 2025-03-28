@@ -1,0 +1,42 @@
+nav{
+    background-color: rgb(51, 129, 207);
+}
+ul{
+    list-style: none;
+    left: 0;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+li{
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+
+}
+li:hover{
+    background-color: rgb(27, 110, 192);
+
+
+
+}
+li:hover fa-icon{
+    color: rgb(199, 199, 199);
+
+
+
+}
+fa-icon{
+    margin-right: 10px;
+}
