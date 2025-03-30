@@ -7,7 +7,7 @@ import { faHome, faList, faListOl, faFish, faFileAlt} from '@fortawesome/free-so
   declarations: [],
   imports: [
     CommonModule,
-    FontAwesomeModule 
+    FontAwesomeModule
   ],
   exports: [
     FontAwesomeModule
