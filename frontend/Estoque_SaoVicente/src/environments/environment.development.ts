@@ -1,4 +1,5 @@
 export const environment = {
      production: false,  
-     apiUrl: 'http://my-dev-url'
+     API_URL: "",
+     TOKEN_KEY: "home"
 };

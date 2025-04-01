@@ -1,4 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: 'http://my-prod-url'
+    API_URL: "",
+    TOKEN_KEY: "home"
 };

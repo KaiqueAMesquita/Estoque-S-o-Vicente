@@ -20,7 +20,7 @@
     "@fortawesome/angular-fontawesome": "^1.0.0",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "dotenv": "^16.4.7",
-    "rxjs": "~7.8.0",
+    "rxjs": "^6.6.7",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },

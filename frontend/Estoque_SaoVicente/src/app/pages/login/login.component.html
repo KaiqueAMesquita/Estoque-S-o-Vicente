@@ -2,8 +2,8 @@
     <span class="line"></span>
     <h3>LOGIN</h3>
     <form [formGroup]="loginForm" (ngSubmit)="submitForm($event)">
-        <input type="text" placeholder="Nome" formControlName="username" [(ngModel)] = "username">
-        <input type="password"  placeholder="Senha" formControlName="password" [(ngModel)] = "password" >
+        <input type="text" placeholder="Nome" formControlName="username" >
+        <input type="password"  placeholder="Senha" formControlName="password">
 
 
         <button>ENTRAR</button>
