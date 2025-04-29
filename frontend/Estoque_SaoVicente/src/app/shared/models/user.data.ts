@@ -6,3 +6,4 @@ export interface User {
     role: number | null;
     moves: Moves[] | null;
 }
+//User interface
